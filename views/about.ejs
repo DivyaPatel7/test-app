@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/tailwind.css" />
+    <title>About Me</title>
+  </head>
+  <body class="bg-gradient-to-r from-gray-900 to-gray-700 text-gray-200">
+    <%- include('partials/navbar', {page: '/about'}) %>
+
+    <div class="container mx-auto p-6">
+      <div class="hero bg-gray-800 bg-opacity-50 rounded-2xl p-8 mb-10 shadow-lg">
+        <div class="hero-content text-center">
+          <div class="max-w-lg mx-auto">
+            <h1 class="text-6xl font-extrabold text-blue-400">About Me</h1>
+            <p class="py-6 text-lg text-gray-300">Passionate Developer & Tech Enthusiast</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div class="flex justify-center">
+          <img
+            src="/pictures/1.png"
+            alt="An image representing myself"
+            class="rounded-xl shadow-2xl transform hover:scale-105 transition-transform duration-300"
+          />
+        </div>
+        <div class="bg-gray-800 p-6 rounded-xl shadow-lg text-gray-300">
+          <p class="text-lg leading-relaxed">
+            <span class="font-bold text-blue-300">🧑🏻‍💻 About Me</span> <br>
+            I am a dedicated Software Developer with a strong passion for building scalable and efficient applications. I love solving complex problems and continuously improving my skills in modern technologies.
+            <br><br>
+            <span class="font-bold text-blue-300">🛠️ Technical Skills</span> <br>
+            <span class="text-gray-400">Programming Languages:</span> JavaScript, TypeScript, Python, Java, C++ <br>
+            <span class="text-gray-400">Frameworks & Libraries:</span> React, Next.js, Node.js, Express, Tailwind CSS <br>
+            <span class="text-gray-400">Databases:</span> PostgreSQL, MongoDB, Firebase <br>
+            <span class="text-gray-400">Tools & Platforms:</span> Git, Docker, AWS, Vercel, Jira <br>
+            <span class="text-gray-400">Concepts:</span> Data Structures, Algorithms, API Development, System Design <br>
+            <br>
+            <span class="font-bold text-blue-300">🎓 Education</span> <br>
+            Final-year Computer Programming and Analysis student at Seneca College, Toronto.
+            <br><br>
+            <span class="font-bold text-blue-300">🌐 Let's Connect</span> <br>
+            Passionate about collaborating on innovative projects. Open to networking and new opportunities!
+            <br> <br>
+            <span class="font-bold text-blue-300">📞 Contact</span> <br>
+            🌐 GitHub: <a href="#" class="text-blue-400 hover:underline">Divya</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
